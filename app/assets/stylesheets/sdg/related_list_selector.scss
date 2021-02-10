@@ -15,27 +15,7 @@
   label + ul {
     $spacing: 0.5%;
     @include sdg-goal-list($spacing);
-
-    li {
-      min-width: $sdg-icon-min-width;
-      width: calc(100% / 17 - #{$spacing});
-
-      &[aria-checked=true] img {
-        opacity: 0.15;
-      }
-
-      &:focus {
-        outline: $outline-focus;
-      }
-
-      &:hover {
-        cursor: pointer;
-      }
-
-      .sdg-goal-icon {
-        width: 100%;
-      }
-    }
+    @include sdg-goal-list-expanded($spacing);
   }
 
   .input-section {
