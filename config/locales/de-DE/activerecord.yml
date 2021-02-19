@@ -34,14 +34,14 @@ de:
         one: "Tag"
         other: "Tags"
       user:
-        one: "Benutzer*in"
-        other: "Benutzer*innen"
+        one: "Benutzer"
+        other: "Benutzer"
       moderator:
-        one: "Moderator*in"
-        other: "Moderator*innen"
+        one: "Moderator"
+        other: "Moderatoren"
       administrator:
-        one: "Administrator*in"
-        other: "Administrator*innen"
+        one: "Administrator"
+        other: "Administratoren"
       valuator:
         one: "Begutachter*in"
         other: "Begutachter*innen"

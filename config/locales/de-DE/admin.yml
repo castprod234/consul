@@ -56,9 +56,9 @@ de:
           on_comments: Kommentare
           on_debates: Diskussionen
           on_proposals: Vorschläge
-          on_users: Benutzer*innen
+          on_users: Benutzer
           on_system_emails: E-Mails vom System
-        title: Moderator*innenaktivität
+        title: Moderatorenaktivität
         type: Typ
         no_activity: Hier sind keine Moderator*innen aktiv.
     budgets:
