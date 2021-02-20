@@ -129,7 +129,7 @@ de:
           other: "Sie können nur Ausgabenvorschläge im %{count} Bezirk unterstützen. Wenn sie fortfahren, können sie ihren Wahlbezirk nicht ändern. Sind sie sicher?"
         supports:
           zero: Keine Unterstützung
-          one: 1 Unterstützer*in
+          one: 1 Unterstützer
           other: "%{count} Unterstützer"
         give_support: Unterstützung
       header:
