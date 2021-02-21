@@ -13,7 +13,7 @@
         <% by_answer = by_question[question.id].present? ? by_question[question.id].group_by(&:answer) : {} %>
         <tr id="question_<%= question.id %>_<%= i %>_result">
           <td><%= answer.title %></td>
-          <td class="text-center"><%= by_answer[answer.title].present? ? by_answer[answer.title].sum(&:amount) : 0 %></td>
+          <td class="text-center"><%= answer.total_votes %></td>
         </tr>
       <% end %>
     </tbody>
